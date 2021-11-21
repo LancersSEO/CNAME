@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-90614976-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || []
+      function gtag() {
+        dataLayer.push(arguments)
+      }
+      gtag('js', new Date())
+
+      gtag('config', 'UA-90614976-1')
+    </script>
+
+    <link rel="icon" href="favicon.png" type="image/x-icon" />
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+
+    <title>React Native Newsletter</title>
+
+    <link
+      href="https://use.fontawesome.com/releases/v5.0.2/css/all.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/normalize.css" type="text/css" />
+    <link rel="stylesheet" href="/newsletter.css" type="text/css" />
+
+    <script src="/ie.js" type="application/javascript"></script>
+    <script src="/newsletter.js" type="application/javascript"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  </head>
+  
+  <body>
+    <div class="container">
+      <header>
+        <section class="banner">
+          <div class="banner-about">
+            <h1>We have a new website!</h1>
+            <span class="about">
+              The React Native Newsletter has a new home on the web! Head on over to 
+              <a href="https://reactnativenewsletter.com" target="_blank">our new website</a> 
+              for past issues, sponsorship opportunities, and more.
+            </span>
+          </div> 
+          <a class="banner-cta" href="https://reactnativenewsletter.com" target="_blank">
+            <span class="cta">Visit the new site</span>
+            <span class="icon arrow-right"></span>
+          </a>
+        </section>
+        <nav class="desktop">
+          <ul>
+            <li>
+              <a href="/" id="logo"></a>
+            </li>
+            <li>
+              <a href="/sponsor.html">Become a Sponsor</a>
+            </li>
+            <li>
+              <a href="/suggest-article.html">Suggest Article</a>
+            </li>
+            <li>
+              <a href="/issues.html">Past Issues</a>
+            </li>
+            <li>
+              <a 
+              href="mailto:newsletters@infinite.red?subject=React%20Native%20Newsletter%20Sponsorship" 
+              target="_blank">
+                Contact us
+              </a>
+            </li>
+          </ul>
+          
+          <ul class="social">
+            <li>
+              <a
+              href="https://twitter.com/rnnewsletter"
+              target="_blank"
+              class="icon twitter"
+              ></a>
+            </li>
+          </ul>
+        </nav>
+        <nav class="mobile">
+          <a href="#" id="logo"></a>
+          <a href="#" id="open-menu"></a>
+        </nav>
+      </header>
+      <main>
+        
+        <nav class="menu">
+          <div class="close-wrapper">
+            <a href="#" class="close"></a>
+          </div>
+          
+          <ul class="links">
+            <li>
+              <a href="/sponsor.html">Become a Sponsor</a>
+            </li>
+            <li>
+              <a href="/suggest-article.html">Suggest Article</a>
+            </li>
+            <li>
+              <a href="/issues.html">Past Issues</a>
+            </li>
+          </ul>
+          
+          <ul class="social">
+            <li>
+              <a
+              href="https://twitter.com/rnnewsletter"
+              target="_blank"
+              class="icon twitter"
+              ></a>
+            </li>
+          </ul>
+        </nav>
+        
+        <section class="content">
+          <article id="splash">
+            <h1>A curated, fun to read newsletter all about React Native</h1>
+            
+            <h2>
+              Free bi-weekly summary of React Native news, articles, libraries,
+              apps, and more!
+            </h2>
+            
+            <div class="subscribe-form">
+              <form
+                action="//red.us3.list-manage.com/subscribe/post?u=78d9e37a94fa0b522939163d4&amp;id=93c55ddabd"
+                method="post"
+                id="mc-embedded-subscribe-form"
+                name="mc-embedded-subscribe-form"
+                class="validate"
+                target="_blank"
+              >
+                <div class="input-field email-input">
+                  <input
+                    type="email"
+                    value=""
+                    name="EMAIL"
+                    required
+                    class="required email"
+                    id="mce-EMAIL"
+                    autocomplete="off"
+                    placeholder="Your Email Address"
+                  />
+                  <button type="submit" class="addon"></button>
+                  <span class="hint">Please enter a valid email</span>
+                </div>
+              </form>
+            </div>
+          </article>
+
+          <div id="illustration"></div>
+        </section>
+
+        <footer>
+          <article class="bio">
+            <div class="photo"></div>
+            <div class="details">
+              <h1>Jon Major Condon, Editor-in-Chief</h1>
+              <p>Jon Major specializes in React Native at Infinite Red.</p>
+              <!-- <ul class="social">
+                <li>
+                  <a class="icon twitter" target="_blank" href="#"></a>
+                </li>
+                <li>
+                  <a class="icon github" target="_blank" href="#"></a>
+                </li>
+              </ul> -->
+            </div>
+          </article>
+
+          <section class="sponsor-wrap">
+            <section class="sponsor">
+              <h1>Presented By</h1>
+              <a class="logo" href="https://infinite.red" target="_blank"></a>
+            </section>
+          </section>
+        </footer>
+      </main>
+    </div>
+  </body>
+</html>
